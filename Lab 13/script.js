@@ -15,3 +15,15 @@ function start() {
   }
   //a command that says when the window loads, run the function 'start'
       window.onload = start;
+
+//Class Demo Javascript
+function start() {
+  var button = document.getElementById('tdemo');
+  button.onclick = change;
+}
+
+function change (){
+  document.getElementById('demo').style.color='lightgreen';
+  document.getElementById('demo').style.fontSize='40px';
+}
+
