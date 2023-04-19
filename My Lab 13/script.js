@@ -9,7 +9,15 @@ function start () {
 /*function that changes the style of the variable through the button*/
 function change(){
     /*manipulates the styles*/
-    document.getElementById('mychange').style.borderBlockColor='orange';
-    document.getElementById('mychange').style.color='brown';
+    document.getElementById('mychange').style.borderBlockColor='purple';
+    document.getElementById('mychange').style.color='white';
     document.getElementById('mychange').style.borderBlockStyle='dotted';
+    document.getElementById('mychange').style.fontSize='25px';
+    document.getElementById('mychange').style.backgroundColor="orange";
+    document.getElementById('mychange').style.borderBlockStartWidth='8px'
+    document.getElementById('mychange').style.borderBlockEndWidth='8px'
+    document.getElementById('mychange').style.fontFamily='Arial';
 }
+
+/*when the window loads, the function loads and start function loads*/
+window.onload = start;
